@@ -109,7 +109,7 @@ function add(num1, num2) {
 }
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
-var mathSum = add(3, 4)
+var mathSum = add(3, 4);
 //Code Here
 
 //////////////////PROBLEM 12////////////////////
@@ -122,7 +122,20 @@ var mathSum = add(3, 4)
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
-
+function faveColorFinder(color) {
+  if (color === "red") {
+    return "red is a great color";
+  }
+  else if (color === 'green') {
+    return "green is a solid favorite color";
+  }
+  else if (color === 'black') {
+    return 'so trendy';
+  }
+  else {
+    return 'you need to evaluate your favorite color choice'
+  }
+}
 //////////////////PROBLEM 13////////////////////
 
 let duck = "cute";
@@ -145,16 +158,16 @@ function pond() {
 //as strings.
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let globalScope = ["duck"];
 
 //This array should contain the variable names (as strings) accessible in the bathroom function.
-let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathroomScope = ["duck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
-let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let bathtubScope = ["duck", "sailorDuck", "rubberDuck"];
 
 //This array should contain the variable names (as strings) accessible in the pond function.
-let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+let pondScope = ["duck", "realDuck"];
 
 //////////////////PROBLEM 14////////////////////
 
