@@ -75,7 +75,7 @@ var dog = {
 //variable called devMountainClassPet.
 
 //Code Here
-
+var devMountainClassPet = dog.name;
 //////////////////PROBLEM 10////////////////////
 
 //Write a function called nameCheck that takes in a name parameter.
