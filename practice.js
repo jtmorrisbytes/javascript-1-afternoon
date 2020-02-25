@@ -109,7 +109,7 @@ function add(num1, num2) {
 }
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
-
+var mathSum = add(3, 4)
 //Code Here
 
 //////////////////PROBLEM 12////////////////////
